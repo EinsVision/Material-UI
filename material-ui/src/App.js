@@ -1,7 +1,9 @@
 import { createMuiTheme, CssBaseline, makeStyles, ThemeProvider } from '@material-ui/core';
 import React from 'react';
 import Header from './components/Header';
+import PageHeader from './components/PageHeader';
 import SideMenu from './components/SideMenu';
+import PeopleIcon from '@material-ui/icons/People';
 
 const theme = createMuiTheme({
   palette:{
@@ -31,6 +33,11 @@ function App() {
       <SideMenu />
       <div className={classes.appMain}>
         <Header />
+        <PageHeader
+          title="Page Title"
+          subTitle="Page description"
+          icon={<PeopleIcon/>}
+        />
       </div>
       <CssBaseline />
     </ThemeProvider>
