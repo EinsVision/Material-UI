@@ -36,7 +36,7 @@ function App() {
         <PageHeader
           title="Page Title"
           subTitle="Page description"
-          icon={<PeopleIcon/>}
+          icon={<PeopleIcon fontSize='large'/>}
         />
       </div>
       <CssBaseline />

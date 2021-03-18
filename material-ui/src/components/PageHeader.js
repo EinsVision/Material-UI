@@ -9,11 +9,13 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(4),
     display: 'flex',
     marginBottom: theme.spacing(2),
+    alignItems: 'center',
   },
   pageHeader__pageIcon: {
     display: 'inline-block',
     padding: theme.spacing(2),
     color: '#3c44b1',
+    borderRadius: '100px',
   },
   pageHeader__pageTitle: {
     paddingLeft: theme.spacing(4),

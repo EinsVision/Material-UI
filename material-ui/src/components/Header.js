@@ -8,6 +8,7 @@ import SearchIcon from '@material-ui/icons/Search';
 const useStyles = makeStyles( theme => ({
   header: {
     backgroundColor: '#fff',
+    // transform: 'translateZ(0)'
   },
   header__container: {
     alignItems: 'center',
