@@ -1,10 +1,13 @@
+import { AppBar, Toolbar } from '@material-ui/core';
 import React from 'react';
 
 function Header() {
   return (
-    <div>
-      
-    </div>
+    <AppBar position='static'>
+      <Toolbar>
+        
+      </Toolbar>
+    </AppBar>
   )
 }
 
