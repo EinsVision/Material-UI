@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core';
+import { CssBaseline, makeStyles } from '@material-ui/core';
 import React from 'react';
 import Header from './components/Header';
 import SideMenu from './components/SideMenu';
@@ -16,9 +16,10 @@ function App() {
   return (
     <>
       <SideMenu />
-      <h1 className={classes.appMain}>
+      <div className={classes.appMain}>
         <Header />
-      </h1>
+      </div>
+      <CssBaseline />
     </>
   );
 }
